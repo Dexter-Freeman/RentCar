@@ -1,0 +1,18 @@
+.header {
+	// display: flex;
+	// justify-content: space-between;
+	// align-items: center;
+	// margin-top: 20px;
+	&__phone {
+
+	}
+	&__socials {
+
+	}
+	& .container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 15px 0;
+	}
+}

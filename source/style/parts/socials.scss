@@ -1,0 +1,25 @@
+.socials {
+	&__item {
+
+	}
+	&__link {
+		cursor: pointer;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		vertical-align: middle;
+		// &_vk {
+		// 	background-image: url('../img/vk.svg');
+		// 	background-repeat: no-repeat;
+		// 	// opacity: .7;
+		// 	transition: .3s;
+		// 	background-position: center center;
+		// 	background-size: contain;
+		// }
+		& svg {
+			width: 30px;
+			height: 30px;
+			fill: #fff;
+		}
+	}
+}

@@ -1,5 +1,18 @@
-body {
-  margin: 0;
-}
+@import 'helpers/variables';
+@import 'helpers/mixins';
+@import 'parts/fonts';
 
-@import 'common/greating';
+@import 'parts/setup';
+@import 'parts/main';
+@import 'parts/header';
+@import 'parts/phone';
+@import 'parts/menu';
+@import 'parts/socials';
+@import 'parts/title';
+@import 'parts/cars';
+@import 'parts/advantages';
+@import 'parts/footer';
+
+
+
+

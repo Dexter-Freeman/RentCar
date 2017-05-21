@@ -1,0 +1,139 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/robot/Roboto-Light.ttf') format('ttf');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/robot/Roboto-LightItalic.ttf') format('ttf');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/robot/Roboto-Regular.ttf') format('ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/robot/Roboto-Italic.ttf') format('ttf');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/robot/Roboto-Medium.ttf') format('ttf');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/robot/Roboto-MediumItalic.ttf') format('ttf');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/robot/Roboto-Bold.ttf') format('ttf');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/robot/Roboto-BoldItalic.ttf') format('ttf');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+    font-family: 'gagalin';
+    src: url('../fonts/Gagalin/gagalin-regular-webfont.svg#gagalinregular') format('svg'),
+    url('../fonts/Gagalin/gagalin-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+font-face {
+    font-family: 'ubuntu';
+    src: url('../fonts/Ubuntu/ubuntu-b-webfont.woff') format('woff'),
+    url('../fonts/Ubuntu/ubuntu-b-webfont.svg#ubuntubold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ubuntu';
+    src: url('../fonts/Ubuntu/ubuntu-light-webfont.woff') format('woff'),
+    url('../fonts/Ubuntu/ubuntu-light-webfont.svg#ubuntulight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ubuntu';
+    src: url('../fonts/Ubuntu/ubuntu-medium-webfont.woff') format('woff'),
+    url('../fonts/Ubuntu/ubuntu-medium-webfont.svg#ubuntumedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ubuntu';
+    src: url('../fonts/Ubuntu/ubuntu-regular-webfont.woff') format('woff'),
+    url('../fonts/Ubuntu/ubuntu-regular-webfont.svg#ubunturegular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+	url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'BebasRegular';
+	src: url('../fonts/BebasRegular/BebasRegular.eot');
+	src: url('../fonts/BebasRegular/BebasRegular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/BebasRegular/BebasRegular.woff') format('woff'),
+		 url('../fonts/BebasRegular/BebasRegular.ttf') format('truetype');
+		 font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'BebasBold';
+	src: url('../fonts/BebasBold/BebasBold.eot');
+	src: url('../fonts/BebasBold/BebasBold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/BebasBold/BebasBold.woff') format('woff'),
+		 url('../fonts/BebasBold/BebasBold.ttf') format('truetype');
+		 font-style: normal;
+	font-weight: normal;
+}

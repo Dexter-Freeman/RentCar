@@ -1,0 +1,106 @@
+@mixin centered($axis: 'both') {
+    position: absolute;
+
+    @if $axis == 'both' {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    @if $axis == 'x' {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    @if $axis == 'y' {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+}
+
+@mixin Roboto($weight: 400) {
+    font-family: 'Roboto', Arial;
+    font-style: normal;
+
+    @if $weight {
+      font-weight: $weight;
+    }
+    
+}
+
+%clearfix {
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin bernier() {
+  font-family: 'Bernier', Arial;
+}
+
+@mixin w1800() {
+  @media screen and (min-width: 1800px) {
+    @content;
+  }
+}
+
+@mixin w1200() {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin w992() {
+  @media screen and (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin w768() {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin w520() {
+  @media screen and (max-width: 520px) {
+    @content;
+  }
+}
+
+@mixin w480() {
+  @media screen and (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin w320() {
+  @media screen and (max-width: 320px) {
+    @content;
+  }
+}
+
+@mixin iphone-p() {
+  @media screen and (max-width: 568px) and (min-width: 320px){
+    @content;
+  }
+}
+
+// @mixin phones() {
+//   @media screen and (max-width: 480px) {
+//     @content;
+//   }
+// }

@@ -4,4 +4,39 @@ block variables
   - var title = 'Home page'
 
 block content
-  include ../common/_greating
+  .page-wrapper
+    .wrapper
+        section.main
+           
+                header.header
+                    .container
+                        .phone.header__phone 
+                            a.phone__link(href="tel:+79781063889") +7(978) 106-38-89
+                        ul.menu
+                            li.menu__item
+                                a.menu__link Условия аренды
+                            li.menu__item
+                                a.menu__link Доп. услуги
+                            li.menu__item
+                                a.menu__link Договор
+                            li.menu__item
+                                a.menu__link Отзывы
+                        ul.socials.header__cocials
+                            li.socials__item
+                                a.socials__link.socials__link_vk 
+                                    svg 
+                                        <use xlink:href='#vk'/>
+                .main__text
+                    h1.title Прокат автомобилей в Крыму <br>г.Щёлкино
+
+                .cars
+                    .container
+                        .cars__title Наши автомобили
+                        .cars__list
+                            .cars-item
+
+        section.advantages
+            .advantages-list
+                .advantages-list__item
+
+    include ../blocks/footer

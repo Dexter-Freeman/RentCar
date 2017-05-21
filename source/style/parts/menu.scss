@@ -1,0 +1,15 @@
+.menu {
+	display: flex;
+	justify-content: space-between;
+	margin-left: -20px;
+	&__item {
+		margin-left: 20px;
+	}
+	&__link {
+		color: #fff;
+		cursor: pointer;
+		font-family: 'BebasBold';
+		border-bottom: #fff dashed 1px;
+		font-size: 19px;
+	}
+}

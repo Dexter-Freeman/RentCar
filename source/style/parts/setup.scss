@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-	font-family: 'RobotoRegular', Arial, sans-serif;
+	font-family: 'BebasBold', Arial, sans-serif;
 	font-weight: 400;
 	color: $main-font-color;
 	font-size: 16px;
@@ -69,7 +69,6 @@ h1, h2, h3, h4, h5 {
 	padding: 0 10px;
 	margin: 0 auto;
 	height: 100%;
-	position: relative;
 	position: relative;
 	@include clearfix;
 	@include w1200 {

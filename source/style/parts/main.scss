@@ -1,9 +1,12 @@
 .main {
-	background-image: url(../img/bg-3.jpg);
+	background-image: url(../img/bg-4.jpg);
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;
+	display: flex;
+	flex-flow: column;
+	min-height: 100vh;
+	height: 100%;
 	&__text {
 		margin-top: 50px;
 	}

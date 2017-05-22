@@ -3,4 +3,7 @@
 	text-align: center;
 	font-size: 45px;
 	font-family: 'gagalin', sans-serif;
+	@include w320 {
+		font-size: 30px;
+	}
 }

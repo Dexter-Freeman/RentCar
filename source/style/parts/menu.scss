@@ -2,8 +2,15 @@
 	display: flex;
 	justify-content: space-between;
 	margin-left: -20px;
+	@include w320 {
+		flex-flow: row wrap;
+		justify-content: center
+	}
 	&__item {
 		margin-left: 20px;
+		@include w320 {
+			margin-bottom: 10px;
+		}
 	}
 	&__link {
 		color: #fff;
@@ -11,5 +18,10 @@
 		font-family: 'BebasBold';
 		border-bottom: #fff dashed 1px;
 		font-size: 19px;
+		transition: $transition;
+		&:hover {
+			border-bottom: $red dashed 1px;
+			color: $red;
+		}
 	}
 }

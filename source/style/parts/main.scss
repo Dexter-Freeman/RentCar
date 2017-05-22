@@ -9,5 +9,8 @@
 	height: 100%;
 	&__text {
 		margin-top: 50px;
+		@include w320 {
+			margin-top: 10px;
+		}
 	}
 }

@@ -3,5 +3,8 @@
 	&__link {
 		color: $red;
 		font-family: 'BebasBold';
+		&:hover {
+			border-bottom: $red dashed 1px;
+		}
 	}
 }

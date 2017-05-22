@@ -8,11 +8,17 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		@include w320 {
+			flex-flow: column;
+		}
 	}
 	&__phone {
 
 	}
 	&__copyright {
 		color: #fff;
+		@include w320 {
+			margin-top: 10px;
+		}
 	}
 }

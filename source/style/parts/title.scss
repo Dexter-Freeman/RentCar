@@ -4,6 +4,40 @@
 	font-size: 45px;
 	font-family: 'gagalin', sans-serif;
 	@include w320 {
-		font-size: 30px;
+		font-size: 28px;
+	}
+}
+
+.subtitle {
+	position: relative;
+	font-size: 42px;
+	color: #fff;
+	@include w320 {
+		font-size: 25px;
+	}
+	&:before {
+		content: "";
+		width: 18px;
+		height: 4px;
+		background-color: #fff;
+		@include centered(y);
+		left: -25px;
+	}
+	&:after {
+		content: "";
+		width: 18px;
+		height: 4px;
+		background-color: #fff;
+		@include centered(y);
+		right: -25px;
+	}
+	&_red {
+		color: $red;
+		&:before {
+			background-color: $red;
+		}
+		&:after {
+			background-color: $red;
+		}
 	}
 }

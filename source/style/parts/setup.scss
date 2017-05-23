@@ -87,3 +87,36 @@ h1, h2, h3, h4, h5 {
 		width: 95%;
 	}
 }
+
+.owl {
+	&-dots {
+		display: flex;
+		flex-flow: row;
+		justify-content: center;
+		margin-top: 20px;
+	}
+	&-dot {
+		width: 15px;
+		height: 15px;
+		border-radius: 50%;
+		background-color: rgba(#888, .8);
+		transition: $transition;
+		margin: 0 20px;
+		&:hover {
+			background-color: $main-font-color;
+		}
+		// & .active {
+		// 	background-color: $main-font-color;
+		// }
+	}
+}
+
+.owl-dot.active {
+	background-color: $main-font-color;
+}
+
+.owl-item {
+	@include w320 {
+		margin-right: 73px;
+	}
+}

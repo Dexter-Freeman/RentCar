@@ -1,7 +1,22 @@
-(function() {
-  'use strict';
+$(document).ready(function() {
+	$(".owl-carousel").owlCarousel({
+		loop:true,
+		items: 1,
+		margin:80,
+		stagePadding:10,
+		nav:false,
+		dots: true
+		// onTranslated: animateImgFunc,
+		// onChanged: animateImgClear
+	});
 
-  setTimeout(function() {
-    document.querySelector('.greating_picture').classList.add('m--show');
-  }, 1000);
-})();
+	// //Добавляем класс с анимацией изображения
+	// function animateImgFunc() {
+	// 	$(".owl-carousel .active .inner-testimonial img").addClass("animated fadeIn full-opacity");
+	// }
+
+	// //Удаляем класс с анимацией изображения
+	// function animateImgClear() {
+	// 	$(".owl-carousel .active .inner-testimonial img").removeClass("animated fadeIn full-opacity");
+	// }
+});

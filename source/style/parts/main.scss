@@ -1,15 +1,14 @@
 .main {
 	background-image: url(../img/bg-4.jpg);
-	background-position: top center;
+	background-position: bottom center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	display: flex;
-	flex-flow: column;
 	min-height: 100vh;
 	height: 100%;
+	@include flex-col();
 	&__text {
-		margin-top: 50px;
+		margin-top: 30px;
 		@include w320 {
 			margin-top: 10px;
 		}

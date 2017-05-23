@@ -99,9 +99,10 @@ h1, h2, h3, h4, h5 {
 		width: 15px;
 		height: 15px;
 		border-radius: 50%;
-		background-color: rgba(#888, .8);
+		background-color: #aaaaaa;
 		transition: $transition;
 		margin: 0 20px;
+		border: 1px solid #fff;
 		&:hover {
 			background-color: $main-font-color;
 		}

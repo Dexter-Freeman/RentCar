@@ -99,8 +99,14 @@
   }
 }
 
-// @mixin phones() {
-//   @media screen and (max-width: 480px) {
-//     @content;
-//   }
-// }
+@mixin flex-col() {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+@mixin flex-row() {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}

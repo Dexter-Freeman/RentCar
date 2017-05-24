@@ -76,14 +76,21 @@ h1, h2, h3, h4, h5 {
 	}
 
 	@include w1800 {
-		min-width: 1800px;
+		// min-width: 1800px;
 	}
 	
 	@include w992 {
-		max-width: 768px;
+		width: 95%;
 	}
 
 	@include w768 {
+		width: 95%;
+	}
+	@include w670 {
+		width: 95%;
+	}
+	@include w480 {
+		padding: 0;
 		width: 95%;
 	}
 }

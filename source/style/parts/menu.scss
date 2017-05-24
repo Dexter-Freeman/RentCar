@@ -4,12 +4,14 @@
 	margin-left: -20px;
 	@include w320 {
 		flex-flow: row wrap;
-		justify-content: center
+		justify-content: center;
+		margin-left: 0;
 	}
 	&__item {
 		margin-left: 20px;
 		@include w320 {
 			margin-bottom: 10px;
+			margin-left: 10px;
 		}
 	}
 	&__link {
@@ -19,6 +21,12 @@
 		border-bottom: #fff dashed 1px;
 		font-size: 19px;
 		transition: $transition;
+		@include w670 {
+			font-size: 16px;
+		}
+		@include w320 {
+			font-size: 16px;
+		}
 		&:hover {
 			border-bottom: $red dashed 1px;
 			color: $red;

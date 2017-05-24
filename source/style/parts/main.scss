@@ -9,7 +9,13 @@
 	@include flex-col();
 	&__text {
 		margin-top: 30px;
-		@include w320 {
+		@include w768 {
+			margin-top: 20px;
+		}
+		@include w670 {
+			margin-top: 10px;
+		}
+		@include w480 {
 			margin-top: 10px;
 		}
 	}

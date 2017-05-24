@@ -8,8 +8,15 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		@include w320 {
+		@include w670 {
 			flex-flow: column;
+			justify-content: center;
+			align-items: center;
+		}
+		@include w480 {
+			flex-flow: column;
+			justify-content: center;
+			align-items: center;
 		}
 	}
 	&__phone {

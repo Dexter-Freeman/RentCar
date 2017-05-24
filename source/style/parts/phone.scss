@@ -1,5 +1,8 @@
 .phone {
 	font-size: 36px;
+	@include w670 {
+		font-size: 32px;
+	}
 	&__link {
 		color: $red;
 		font-family: 'BebasBold';

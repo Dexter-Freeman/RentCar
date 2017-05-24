@@ -13,8 +13,22 @@
 		justify-content: space-between;
 		width: 100%;
 		padding: 15px 0;
-		@include w320 {
+		@include w992 {
+			max-width: 992px;
+		}
+		@include w768 {
+			width: 95%;
 			flex-flow: column;
+			padding-bottom: 0;
+		}
+		@include w670 {
+			max-width: 667px;
+			padding: 5px 0;
+			flex-flow: column;
+		}
+		@include w480 {
+			flex-flow: column;
+			padding-bottom: 0;
 		}
 	}
 }

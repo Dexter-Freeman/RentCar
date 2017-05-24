@@ -17,9 +17,15 @@
 		padding: 40px;
 		background-color: rgba(255, 255, 255, .6);
 		margin-top: 20px;
+		@include w480 {
+			padding: 40px 20px;
+		}
 	}
 }
 
 .contacts__phone .phone__link {
 	font-size: 60px;
+	@include w480 {
+		font-size: 40px;
+	}
 }

@@ -19,4 +19,10 @@ $(document).ready(function() {
 	// function animateImgClear() {
 	// 	$(".owl-carousel .active .inner-testimonial img").removeClass("animated fadeIn full-opacity");
 	// }
-});
+
+
+	$('.cars-item').on('tap', function() {
+		// $('.cars-item-flip').css(transform, "rotateY(180deg)");
+		$(this).toggleClass(hover);
+			});
+		});

@@ -3,8 +3,11 @@
 	text-align: center;
 	font-size: 45px;
 	font-family: 'gagalin', sans-serif;
+	@include w670 {
+		font-size: 32px;
+	}
 	@include w320 {
-		font-size: 28px;
+		font-size: 26px;
 	}
 }
 
@@ -12,6 +15,9 @@
 	position: relative;
 	font-size: 42px;
 	color: #fff;
+	@include w670 {
+		font-size: 32px;
+	}
 	@include w320 {
 		font-size: 25px;
 	}

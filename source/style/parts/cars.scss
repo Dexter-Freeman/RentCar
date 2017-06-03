@@ -15,7 +15,7 @@
 		margin-top: 25px;
 		display: flex;
 		flex-flow: row wrap;
-		align-items: center;
+		align-items: stretch;
 		justify-content: center;
 		width: 100%;
 	}
@@ -34,19 +34,19 @@
 	@include w320 {
 		margin: 0 0px 20px 0px;
 	}
-	&__front {
-		z-index: 2;
-		transform: rotateY(0deg);
-	}
-	&__back {
-		transform: rotateY(180deg);
-	}
+	// &__front {
+	// 	z-index: 2;
+	// 	transform: rotateY(0deg);
+	// }
+	// &__back {
+	// 	transform: rotateY(180deg);
+	// }
 }
 
-.cars-item, .cars-item__front, .cars-item__back {
-	width: 280px;
-	height: 400px;
-}
+// .cars-item, .cars-item__front, .cars-item__back {
+// 	width: 280px;
+// 	height: 400px;
+// }
 
 .cars-item-flip {
 	transition: $transition;
@@ -55,16 +55,16 @@
 }
 
 
-.cars-item__front , .cars-item__back{
-	backface-visibility: hidden;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
+// .cars-item__front , .cars-item__back{
+// 	backface-visibility: hidden;
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// }
 
-.cars-item:hover .cars-item-flip, .cars-item.hover .cars-item-flip {
-	transform: rotateY(180deg);
-}
+// .cars-item:hover .cars-item-flip, .cars-item.hover .cars-item-flip {
+// 	transform: rotateY(180deg);
+// }
 
 .cars-info {
 	&__front {
@@ -115,7 +115,6 @@
 		border-radius: 0 0 10px 0;
 	}
 	&__rates {
-		margin-top: 10px;
 		padding: 0 10px;
 		&-table {
 			width: 100%;
@@ -136,6 +135,7 @@
 		}
 		&_item {
 			margin-top: 5px;
+			color: #fff;
 		}
 	}
 }

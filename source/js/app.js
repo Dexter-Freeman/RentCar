@@ -21,8 +21,8 @@ $(document).ready(function() {
 	// }
 
 
-	$('.cars-item').on('tap', function() {
-		// $('.cars-item-flip').css(transform, "rotateY(180deg)");
-		$(this).toggleClass(hover);
-			});
-		});
+	// $('.cars-item').on('tap', function() {
+	// 	$('.cars-item-flip').css(transform, "rotateY(180deg)");
+	// 	$(this).toggleClass(hover);
+	// 		});
+	// 	});

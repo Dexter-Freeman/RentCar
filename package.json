@@ -1,8 +1,9 @@
 {
-  "name": "loftschool-builder",
+  "name": "rent-car",
   "version": "1.0.0",
-  "author": "a.kalin",
+  "author": "Dexter Freeman",
   "license": "ISC",
+  "homepage": "https://dexter-freeman.github.io/RentCar/",
   "scripts": {},
   "devDependencies": {
     "animate.css": "^3.5.2",
